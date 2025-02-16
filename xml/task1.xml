@@ -1,0 +1,21 @@
+</-- note with multiple note atrribute --/>
+<?xml version="1.0" encoding="UTF-8"?>
+<notes>
+    <note id="1" category="personal" priority="high">
+        <to>Alice</to>
+        <from>Bob</from>
+        <message>Happy Birthday! Have a great day.</message>
+    </note>
+    
+    <note id="2" category="work" priority="medium">
+        <to>Manager</to>
+        <from>John</from>
+        <message>Project report submitted. Please review.</message>
+    </note>
+    
+    <note id="3" category="reminder" priority="low">
+        <to>Self</to>
+        <from>Me</from>
+        <message>Buy groceries on the way home.</message>
+    </note>
+</notes>

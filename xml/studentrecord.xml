@@ -1,0 +1,57 @@
+< ?xml version = "1.0" encoding="UTF-8"?>
+<Students>
+    <student id = 1>
+    <Name>
+  <firstName>Dikshya  </firstName>
+<lastName> K.C </lastname>
+</Name>
+    <Age>20</Age>
+<address>
+<city>Kathmandu</city>
+</address>
+    <Gender>Male</Gender>
+    <ID>12345</ID>
+    <Course>Computer Science</Course>
+    <Year>2</Year>
+    <Subjects>
+        <Subject>Mathematics</Subject>
+        <Subject>Physics</Subject>
+        <Subject>Programming</Subject>
+    </Subjects>
+     <student>
+     
+   <student id = 2>
+    <Name>Cherish Gurung</Name>
+    <Age>19</Age>
+   <address>
+   <city>Kathmandu</city>
+   </address>
+    <Gender>Female</Gender>
+    <ID>12889</ID>
+    <Course>Computer Science</Course>
+    <Year>5</Year>
+    <Subjects>
+        <Subject>Mathematics</Subject>
+        <Subject>Physics</Subject>
+        <Subject>Programming</Subject>
+    </Subjects>
+    <student>
+  
+<student id = 3>
+    <Name>Subiya Gurung</Name>
+    <Age>21</Age>
+ <address>
+   <city>Butwal</city>
+   </address>
+    <Gender>Female</Gender>
+    <ID>21889</ID>
+    <Course>Computer Science</Course>
+    <Year>5</Year>
+    <Subjects>
+        <Subject>Mathematics</Subject>
+        <Subject>Physics</Subject>
+        <Subject>Programming</Subject>
+    </Subjects>
+    <student>
+
+</Students>

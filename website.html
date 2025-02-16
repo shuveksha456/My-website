@@ -1,0 +1,122 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flower Website</title>
+        <link rel="stylesheet" href="website.css"> 
+    </head>
+    <body>
+        <nav>
+            <div class="nav-logo">
+                <img src="flowerlogo1.jpg" alt="Floda Logo" class="logo">
+                <h1>Bloom & Beauty 🌺</h1>
+            </div>
+            <ul>
+                <li><a href="#home">Home 🏠</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="dropdown">
+                    <a href="#gallery" class="dropbtn">🖼️ Gallery </a>
+                    <div class="dropdown-content">
+                        <a href="#roses">🌹 Roses</a>
+                        <a href="#lilies">🌷 Lilies</a>
+                        <a href="#sunflowers">🌻 Sunflowers</a>
+                        <a href="Daisy"> 🌼Daisy</a>
+                    </div>
+                    <li class="dropdown">
+                        <a href="#feedback" class="dropbtn">Feedback </a>
+                        <div class="dropdown-content">
+                            <a href="#help">Help ❓</a>
+                            <a href="#rate us">Rate Us ⭐️</a>
+                        </div>
+                </li>
+                <li><a href="#contact">Contact 📞</a></li>
+            </ul>
+        </nav>
+        
+        <section id="home">
+            <h1>Welcome to the Bloom & Beauty 🌺</h1>
+            <p>Discover the beauty of flowers and their significance. 🌻</p>
+            <a href="https://www.flowers.com" target="_blank">Visit Us 📍✨</a>
+            <img src="shop.jpg" alt="Beautiful Flowers" width="500px">
+        </section>
+    
+        <section id="gallery">
+            <h2>Find Us 🔎😊</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen></iframe>
+            <h2>Flower Gallery 🌸🖼️ </h2>
+            <div class="flower-grid">
+                <div class = "flower-item">
+                    <p class = "price">$10</p>
+                <img src="shop1.webp" alt="Flower 1">
+                </div>
+                <div class = "flower-item">
+                    <p class = "price">$20</p>
+                <img src="shop2.jpg" alt="Flower 2">
+                </div>
+                <div class = "flower-item">
+                    <p class = "price">$15</p>
+                <img src="shop3.jpg" alt="Flower 3">
+                </div>
+                <div class = "flower-item">
+                    <p class = "price">$15</p>
+                <img src="shop4.jpg" alt="Flower 4">  
+                </div>
+                <div class = "flower-item">
+                    <p class = "price">$15</p>
+                <img src="shop5.jpg" alt="Flower 5">
+                </div>
+                <div class = "flower-item">
+                    <p class = "price">$20</p>
+                <img src="shop6.jpg" alt="Flower 6">
+                </div>
+                <div class = "flower-item">
+                    <p class = "price">$15</p>
+                <img src="shop7.jpg" alt="Flower 7">
+                </div>
+                <div class = "flower-item">
+                    <p class = "price">$10</p>
+                <img src="shop8.jpg" alt="Flower 8">
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Flowers 💐</h2>
+            <p>Flowers bring color and joy to our lives. Here are some popular flowers and their meanings. 🍁</p>
+            <table>
+                <tr>
+                    <th>Flower</th>
+                    <th>Meaning</th>
+                </tr>
+                <tr>
+                    <td>Rose 🌹</td>
+                    <td>True Love ❤️</td>
+                </tr>
+                <tr>
+                    <td>Lily 🌸</td>
+                    <td>Purity 🕊️</td>
+                </tr>
+                <tr>
+                    <td>Sunflower 🌻</td>
+                    <td>Happiness 🌞</td>
+                </tr>
+            </table>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us ☎️</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </body>
+    </html>

@@ -1,0 +1,85 @@
+<html>
+<head>
+<title> Student Registration Form </title>
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: auto;
+            background-color: #f9f9f9;
+        }
+    form {
+            max-width: 500px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fff;
+        }
+</style>
+</head>
+<body>
+<form method="get" >
+<h2> Student Registration Form </h2>
+<div>
+<label for ="FirstName">FirstName</label>
+<input type ="text" id = "FirstName" name= "FirstName">
+</div>
+<div>
+<label for ="LastName">LastName</label>
+<input type ="text" id ="LastName" name= "LastName">
+</div>
+<div>
+<label for ="Email">Email</label>
+<input type ="email" id ="email">
+ </div>
+<div> 
+ <label for="phone">Phone Number:</label>
+  <input type="number" id="phone" name="phone" >
+</div>
+<div>
+ <label for="SID">Student Id</label>
+ <input type="number" id="number" name="SID" >
+</div>
+<div>
+ <label for="text">Address</label>
+ <input type="text" id="Address" name="Address" >
+</div>
+<div>
+ <label>Gender:</label>
+        <div class="radio-group">
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </div>
+<div>
+<label>Faculty</label>
+    <div class="radio-group">
+     <input type="radio" id="BCA" name="faculty" value="BCA" checked>
+     <label for="BCA">BCA</label>
+
+     <input type="radio" id="CSIT" name="faculty" value="CSIT">
+     <label for="CSIT">CSIT</label>
+   </div>
+<div>
+<label for="Semester">Semester:</label>
+        <select id="Semester" name="semester" >
+            <option value="">--Select a semester--</option>
+            <option value="science">1st sem</option>
+            <option value="commerce">2nd sem</option>
+            <option value="arts">3rd sem</option>
+            <option value="engineering">4th sem</option>
+        </select>
+</div>
+<div >
+ <button type="submit" class="submit-btn">Submit</button>
+ <button type="reset" class="reset-btn">Reset</button>
+  </div>
+
+</form>
+</body>
+</html>

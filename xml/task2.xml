@@ -1,0 +1,21 @@
+</--phone entries with multiple entries and attribute --/>
+<?xml version="1.0" encoding="UTF-8"?>
+<phonebook>
+    <entry id="1" type="mobile" category="personal">
+        <name>John Doe</name>
+        <number>+1-123-456-7890</number>
+        <email>john.doe@example.com</email>
+    </entry>
+    
+    <entry id="2" type="landline" category="work">
+        <name>Jane Smith</name>
+        <number>+1-987-654-3210</number>
+        <email>jane.smith@company.com</email>
+    </entry>
+    
+    <entry id="3" type="mobile" category="family">
+        <name>Mike Johnson</name>
+        <number>+1-555-666-7777</number>
+        <email>mike.johnson@example.com</email>
+    </entry>
+</phonebook>
