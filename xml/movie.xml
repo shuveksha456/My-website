@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Movie>
+<Movie id="M001">
     <Title>Inception</Title>
     <Director>Christopher Nolan</Director>
     <ReleaseYear>2010</ReleaseYear>
     <Genre>Science Fiction</Genre>
-    <Duration>148</Duration> <!-- Duration in minutes -->
+    <Duration>148</Duration> 
     <Cast>
-        <Actor>
+        <Actor id="A001" nationality="American">
             <Name>Leonardo DiCaprio</Name>
             <Role>Dom Cobb</Role>
         </Actor>
-        <Actor>
+        <Actor id="A002" nationality="American">
             <Name>Joseph Gordon-Levitt</Name>
             <Role>Arthur</Role>
         </Actor>
-        <Actor>
+        <Actor id="A003" nationality="Canadian">
             <Name>Elliot Page</Name>
             <Role>Ariadne</Role>
         </Actor>
