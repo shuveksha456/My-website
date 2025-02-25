@@ -6,7 +6,7 @@
     <!ELEMENT ReleaseYear (#PCDATA)>
     <!ELEMENT Genre (#PCDATA)>
     <!ELEMENT Duration (#PCDATA)>
-    <!ELEMENT Cast (Actor+)>
+    <!ELEMENT Cast (Actor+)> 
     <!ELEMENT Actor (Name, Role)>
     <!ATTLIST Actor id ID #REQUIRED 
     nationality CDATA #IMPLIED

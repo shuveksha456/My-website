@@ -1,0 +1,16 @@
+<!DOCTYPE news [
+ <!ELEMENT news (Article+)>
+ <!ELEMENT Article(Title, Author, Date, Category, Content)>
+
+ <!ATTLIST Article 
+   id ID #REQUIRED
+   published ("yes" | "no") #REQUIRED
+ >
+
+ <!ELEMENT Title (#PCDATA)>
+ <!ELEMENT Author(#PCDATA)>
+ <!ELEMENT Date (#PCDATA)>
+ <!ELEMENT Category (#PCDATA)>
+ <!ELEMENT Content (#PCDATA)>
+]
+>

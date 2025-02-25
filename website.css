@@ -302,16 +302,46 @@ form button:hover {
     border: 1px solid lavender;
 }
 
-/* Responsive Design */
-/* Ensures elements adjust on smaller screens */
-@media screen and (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-    }
+/* Footer Styling */
+.footer {
+    background-color: pink;
+    color:gray ;
+    padding: 30px 0;
+    text-align: center;
+}
 
-    nav ul li {
-        margin: 10px 0;
-    }
+
+.footer p{
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* social icons */
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #e91e63;
+    font-size: 24px;
+    text-decoration: none;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ff4081;
+}
+
+/* 
+Responsive Design */
+/* Ensures elements adjust on smaller screens
+@media screen and (max-width: 768px) {
+    /* nav ul {
+        flex-direction: column;
+    } */
+@media screen {
+
 
     table {
         width: 90%;
@@ -320,4 +350,5 @@ form button:hover {
     form {
         width: 80%;
     }
+
 }

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<news>
+    <article id="a1" published="yes">
+        <title>New Technology Revolutionizes Renewable Energy</title>
+        <author>Jane Doe</author>
+        <date>2025-02-19</date>
+        <category>Technology</category>
+        <content>A breakthrough in solar panel efficiency promises to reshape the energy sector...</content>
+    </article>
+    
+    <article id="a2" published="yes">
+        <title>Global Markets Show Signs of Recovery</title>
+        <author>John Smith</author>
+        <date>2025-02-19</date>
+        <category>Business</category>
+        <content>Stock markets around the world saw positive growth amid economic stability...</content>
+    </article>
+    
+    <article id="a3" published="yes">
+        <title>New AI Model Surpasses Human-Level Performance</title>
+        <author>Emily White</author>
+        <date>2025-02-19</date>
+        <category>Artificial Intelligence</category>
+        <content>Researchers have unveiled an AI model that outperforms humans in various cognitive tasks...</content>
+    </article>
+</news>
