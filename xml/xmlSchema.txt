@@ -1,0 +1,13 @@
+xsd:- xml schema definition.
+a xml document can be wee-formed but not valid.
+xml specifies 44 built-in types.
+extension :- .xsd
+syntax :- similar to xml.
+types:
+i. simple element :- that has only text.
+ii. complex element :- that has attrributes and child element.
+
+Order Indicator:-
+i. xs:sequence :- element lai sequence ma rakhxa (element declare gare anusar order ma dekhauxa).
+ii. xs:all :- element jun pani order ma dekhina sakxa.
+iii. xs:choice :- complex-type element lai as a choice declare gardinxa(optional).
