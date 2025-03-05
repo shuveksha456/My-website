@@ -1,11 +1,11 @@
 <? xml vrsion="1.0"?>
 <employee 
-xsi: xmlns="http://www.w3.org/2001/XMLSchema-Instance"
+xsi: xmlns="http://www.w3.org/2001/XMLSchema-instance"
 xsi: noNamespaceSchemaLocation = "./employee.xsd" >
 <employee_name>
 Sandeep
 </employee_name>
-<employee_age>
+<employee_age dob = 1999>
 25
 </employee_age>
-</ employee>
+</employee>

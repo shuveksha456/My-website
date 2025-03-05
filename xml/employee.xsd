@@ -13,9 +13,13 @@
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
 <xsd:element name ="employee" >
 <xsd:complexType>
-<xsd:choice>
+<xsd:choice>             
 <xsd:element name ="employee_name" type="xsd:string">
-<xsd:element name ="employee_age" type="xsd:decimal">
+<xsd:element name ="employee_age" type="xsd:ageType">
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+
 <xsd:simpleType>
 <xsd:restriction base="xsd:decimal">
    <xsd:minInclusive value = "16"/>
@@ -23,7 +27,69 @@
    </xsd:restriction>
    </xsd:simpleType>
    </xsd:element>
-</xsd:choice>
-</xsd:complexType>
-</xsd:element>
+</xsd:restriction>
+<xsd:attribute name ="dob" type ="xsd:date" />
+
 </xsd:schema>
+
+<!-- Arrributes for empty elements -->
+<!-- xml -->
+<image src =""/>
+
+<!-- xschema -->
+<xsd:element name = "image">
+  <xsd:complexType>
+  <xsd:attribute name ="src" type ="xsd:string"/>
+  </xsd:complexType>
+
+<xsd:element>
+
+<!-- Attributes for element with only text content -->
+<!-- xml -->
+<age dob = "1999" month="Jan" > 16 </age>
+
+<!-- xschema -->
+<xsd:element name = " age">
+<xsd:complexType>
+  <xsd:simpleContent>
+     <xsd:extension base = "xsd:integer">
+       <xsd:attribute name="dob" type ="xsd:date"/>
+       <xsd:attribute name="month" type="xsd:string"/>
+      </xsd:extension>
+   </xsd:simpleContent>
+</xsd:complexType>
+
+</xsd:element> 
+
+<!-- Default and Fixed Value for attribute -->
+<!-- Requiring attribute -->
+<!-- WE CAN USED FIXED INSTEAD OF DEFAULT -->
+<!-- xml -->
+<age dob = "1999" month="Jan"  type = "AD"> 16 </age>
+
+<!-- xschema -->
+<xsd:element name = " age">
+<xsd:complexType>
+  <xsd:simpleContent>
+     <xsd:extension base = "xsd:integer">
+       <xsd:attribute name="dob" type ="xsd:date" use ="required"/>
+       <xsd:attribute name="month" type="xsd:string" default="Feb"/>
+       <xsd:attribute name="type" type="xsd:string" fixed= "AD" />
+      </xsd:extension>
+   </xsd:simpleContent>
+</xsd:complexType>
+
+</xsd:element> 
+
+<!-- Mixed Content -->
+<!-- xml -->
+<p> Hello <b>World</b> </p>
+
+<!-- xschema -->
+<xsd:element name="p">
+ <xsd:complexType mixed ="true">
+  <xsd:element name ="b" type ="xsd:string"/>
+</xsd:complexType>
+ 
+</xsd:element>
+  

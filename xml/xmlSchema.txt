@@ -11,3 +11,6 @@ Order Indicator:-
 i. xs:sequence :- element lai sequence ma rakhxa (element declare gare anusar order ma dekhauxa).
 ii. xs:all :- element jun pani order ma dekhina sakxa.
 iii. xs:choice :- complex-type element lai as a choice declare gardinxa(optional).
+
+Attribute only exist in complex type.
+Attribute :- properties of element
